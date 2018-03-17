@@ -6,8 +6,8 @@
  */
 
 /*
- * Student Name:
- * Student Number: 
+ * Student Name: Muhammad Owais Bawany
+ * Student Number: 7993647
  */
 
  /**
@@ -102,7 +102,7 @@ public class Paging {
 	public int addPageBuf(int virtualPageNum) {
 		int removePageNum = pageBuffer[bufPointer]; // get value at pointer
 		pageBuffer[bufPointer] = virtualPageNum; // replace it
-		pageTable[virtualPageNum].u = 1; //
+		pageTable[virtualPageNum].u = 1; // added 
 		bufPointer++; // move to next
 		if (bufPointer == numPhysicalPages) // cycle to start if at end
 			bufPointer = 0;
@@ -260,6 +260,36 @@ public class Paging {
 	// complete this method
 	// <----------------------------------------------------------------------------
 	public int replacePageCLOCK(int replacePageNum) {
+		int oldPageNum;
+		int freedFrame;
+		
+		boolean flag = false;
+		while(!flag)
+		{
+			if (pageTable[pageBuffer[bufPointer]].u == 1){
+				pageTable[pageBuffer[bufPointer]].u = 0;
+				bufPointer++;
+				if (bufPointer == numPhysicalPages) // cycle to start if at end
+					bufPointer = 0;
+			}
+			else
+			{
+				oldPageNum = pageBuffer[bufPointer];
+				
+				freedFrame = pageTable[pageBuffer[bufPointer]].frame;
+				updatePageTableEntry(oldPageNum, -1, (byte) 0, (byte) 0, (byte) 0,
+						 (byte) 0, 0, 0);
+				controlPanel.removePhysicalPage(oldPageNum);
+				updatePageTableEntry(replacePageNum, freedFrame , (byte) 1, (byte) 0, (byte) 0,
+						 (byte) 0, kernel.clock, 0);
+				controlPanel.addPhysicalPage(replacePageNum, freedFrame);
+				logReplacement(oldPageNum, replacePageNum, freedFrame);
+				pageBuffer[bufPointer] = replacePageNum;
+				pageTable[pageBuffer[bufPointer]].u = 1;
+				flag = true;
+				
+			}
+		}
 		return (replacePageNum);
 	}
 	

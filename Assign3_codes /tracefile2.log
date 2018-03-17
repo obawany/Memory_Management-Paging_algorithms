@@ -1,0 +1,225 @@
+63 READ 500 Virtual Addr 0 500 Physical Addr 20 500
+67 WRITE 1500 Virtual Addr 1 476 Physical Addr 14 476
+67 -------------------------------------
+67 Running WRITESEQ Num 100 CdAdr 3000 DtAdr 3001 Inc 100
+75 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+81 WRITE 3001 Virtual Addr 2 953 Physical Addr 11 953
+88 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+97 WRITE 3101 Virtual Addr 3 29 Physical Addr 24 29
+98 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+100 WRITE 3201 Virtual Addr 3 129 Physical Addr 24 129
+106 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+110 WRITE 3301 Virtual Addr 3 229 Physical Addr 24 229
+116 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+125 WRITE 3401 Virtual Addr 3 329 Physical Addr 24 329
+126 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+135 WRITE 3501 Virtual Addr 3 429 Physical Addr 24 429
+143 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+152 WRITE 3601 Virtual Addr 3 529 Physical Addr 24 529
+162 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+165 WRITE 3701 Virtual Addr 3 629 Physical Addr 24 629
+173 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+182 WRITE 3801 Virtual Addr 3 729 Physical Addr 24 729
+188 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+192 WRITE 3901 Virtual Addr 3 829 Physical Addr 24 829
+196 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+206 WRITE 4001 Virtual Addr 3 929 Physical Addr 24 929
+216 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+217 WRITE 4101 Virtual Addr 4 5 Physical Addr 22 5
+224 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+225 WRITE 4201 Virtual Addr 4 105 Physical Addr 22 105
+234 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+235 WRITE 4301 Virtual Addr 4 205 Physical Addr 22 205
+242 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+244 WRITE 4401 Virtual Addr 4 305 Physical Addr 22 305
+250 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+257 WRITE 4501 Virtual Addr 4 405 Physical Addr 22 405
+261 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+271 WRITE 4601 Virtual Addr 4 505 Physical Addr 22 505
+278 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+282 WRITE 4701 Virtual Addr 4 605 Physical Addr 22 605
+288 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+289 WRITE 4801 Virtual Addr 4 705 Physical Addr 22 705
+291 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+295 WRITE 4901 Virtual Addr 4 805 Physical Addr 22 805
+305 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+307 WRITE 5001 Virtual Addr 4 905 Physical Addr 22 905
+308 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+310 WRITE 5101 Virtual Addr 4 1005 Physical Addr 22 1005
+316 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+322 WRITE 5201 Virtual Addr 5 81 Physical Addr 0 81
+329 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+331 WRITE 5301 Virtual Addr 5 181 Physical Addr 0 181
+339 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+348 WRITE 5401 Virtual Addr 5 281 Physical Addr 0 281
+351 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+352 WRITE 5501 Virtual Addr 5 381 Physical Addr 0 381
+356 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+365 WRITE 5601 Virtual Addr 5 481 Physical Addr 0 481
+370 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+377 WRITE 5701 Virtual Addr 5 581 Physical Addr 0 581
+382 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+386 WRITE 5801 Virtual Addr 5 681 Physical Addr 0 681
+396 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+404 WRITE 5901 Virtual Addr 5 781 Physical Addr 0 781
+407 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+408 WRITE 6001 Virtual Addr 5 881 Physical Addr 0 881
+414 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+424 WRITE 6101 Virtual Addr 5 981 Physical Addr 0 981
+430 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+436 Page Fault accessing 6201 (Total so far 1)
+436 Replace Page (CLOCK) replaced page 0 with 6 in frame 20
+436 WRITE 6201 Virtual Addr 6 57 Physical Addr 20 57
+438 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+442 WRITE 6301 Virtual Addr 6 157 Physical Addr 20 157
+446 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+450 WRITE 6401 Virtual Addr 6 257 Physical Addr 20 257
+452 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+455 WRITE 6501 Virtual Addr 6 357 Physical Addr 20 357
+459 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+465 WRITE 6601 Virtual Addr 6 457 Physical Addr 20 457
+470 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+480 WRITE 6701 Virtual Addr 6 557 Physical Addr 20 557
+486 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+489 WRITE 6801 Virtual Addr 6 657 Physical Addr 20 657
+492 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+497 WRITE 6901 Virtual Addr 6 757 Physical Addr 20 757
+502 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+508 WRITE 7001 Virtual Addr 6 857 Physical Addr 20 857
+516 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+521 WRITE 7101 Virtual Addr 6 957 Physical Addr 20 957
+524 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+529 Page Fault accessing 7201 (Total so far 2)
+529 Replace Page (CLOCK) replaced page 1 with 7 in frame 14
+529 WRITE 7201 Virtual Addr 7 33 Physical Addr 14 33
+535 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+538 WRITE 7301 Virtual Addr 7 133 Physical Addr 14 133
+548 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+549 WRITE 7401 Virtual Addr 7 233 Physical Addr 14 233
+554 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+558 WRITE 7501 Virtual Addr 7 333 Physical Addr 14 333
+563 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+571 WRITE 7601 Virtual Addr 7 433 Physical Addr 14 433
+581 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+582 WRITE 7701 Virtual Addr 7 533 Physical Addr 14 533
+589 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+594 WRITE 7801 Virtual Addr 7 633 Physical Addr 14 633
+599 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+603 WRITE 7901 Virtual Addr 7 733 Physical Addr 14 733
+611 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+612 WRITE 8001 Virtual Addr 7 833 Physical Addr 14 833
+614 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+615 WRITE 8101 Virtual Addr 7 933 Physical Addr 14 933
+616 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+617 Page Fault accessing 8201 (Total so far 3)
+617 Replace Page (CLOCK) replaced page 3 with 8 in frame 24
+617 WRITE 8201 Virtual Addr 8 9 Physical Addr 24 9
+625 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+634 WRITE 8301 Virtual Addr 8 109 Physical Addr 24 109
+640 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+641 WRITE 8401 Virtual Addr 8 209 Physical Addr 24 209
+642 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+651 WRITE 8501 Virtual Addr 8 309 Physical Addr 24 309
+657 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+660 WRITE 8601 Virtual Addr 8 409 Physical Addr 24 409
+661 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+669 WRITE 8701 Virtual Addr 8 509 Physical Addr 24 509
+672 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+674 WRITE 8801 Virtual Addr 8 609 Physical Addr 24 609
+681 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+686 WRITE 8901 Virtual Addr 8 709 Physical Addr 24 709
+692 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+694 WRITE 9001 Virtual Addr 8 809 Physical Addr 24 809
+704 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+712 WRITE 9101 Virtual Addr 8 909 Physical Addr 24 909
+719 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+726 WRITE 9201 Virtual Addr 8 1009 Physical Addr 24 1009
+733 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+741 Page Fault accessing 9301 (Total so far 4)
+741 Replace Page (CLOCK) replaced page 4 with 9 in frame 22
+741 WRITE 9301 Virtual Addr 9 85 Physical Addr 22 85
+742 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+752 WRITE 9401 Virtual Addr 9 185 Physical Addr 22 185
+755 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+760 WRITE 9501 Virtual Addr 9 285 Physical Addr 22 285
+763 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+771 WRITE 9601 Virtual Addr 9 385 Physical Addr 22 385
+781 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+783 WRITE 9701 Virtual Addr 9 485 Physical Addr 22 485
+792 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+799 WRITE 9801 Virtual Addr 9 585 Physical Addr 22 585
+801 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+802 WRITE 9901 Virtual Addr 9 685 Physical Addr 22 685
+808 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+811 WRITE 10001 Virtual Addr 9 785 Physical Addr 22 785
+819 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+823 WRITE 10101 Virtual Addr 9 885 Physical Addr 22 885
+828 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+830 WRITE 10201 Virtual Addr 9 985 Physical Addr 22 985
+831 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+837 Page Fault accessing 10301 (Total so far 5)
+837 Replace Page (CLOCK) replaced page 5 with 10 in frame 0
+837 WRITE 10301 Virtual Addr 10 61 Physical Addr 0 61
+844 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+849 WRITE 10401 Virtual Addr 10 161 Physical Addr 0 161
+858 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+866 WRITE 10501 Virtual Addr 10 261 Physical Addr 0 261
+869 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+871 WRITE 10601 Virtual Addr 10 361 Physical Addr 0 361
+880 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+881 WRITE 10701 Virtual Addr 10 461 Physical Addr 0 461
+886 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+889 WRITE 10801 Virtual Addr 10 561 Physical Addr 0 561
+899 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+903 WRITE 10901 Virtual Addr 10 661 Physical Addr 0 661
+908 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+910 WRITE 11001 Virtual Addr 10 761 Physical Addr 0 761
+914 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+921 WRITE 11101 Virtual Addr 10 861 Physical Addr 0 861
+929 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+937 WRITE 11201 Virtual Addr 10 961 Physical Addr 0 961
+940 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+946 Page Fault accessing 11301 (Total so far 6)
+946 Replace Page (CLOCK) replaced page 6 with 11 in frame 20
+946 WRITE 11301 Virtual Addr 11 37 Physical Addr 20 37
+949 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+959 WRITE 11401 Virtual Addr 11 137 Physical Addr 20 137
+967 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+969 WRITE 11501 Virtual Addr 11 237 Physical Addr 20 237
+973 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+976 WRITE 11601 Virtual Addr 11 337 Physical Addr 20 337
+978 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+980 WRITE 11701 Virtual Addr 11 437 Physical Addr 20 437
+984 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+992 WRITE 11801 Virtual Addr 11 537 Physical Addr 20 537
+1000 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+1007 WRITE 11901 Virtual Addr 11 637 Physical Addr 20 637
+1010 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+1015 WRITE 12001 Virtual Addr 11 737 Physical Addr 20 737
+1018 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+1020 WRITE 12101 Virtual Addr 11 837 Physical Addr 20 837
+1024 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+1033 WRITE 12201 Virtual Addr 11 937 Physical Addr 20 937
+1034 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+1043 Page Fault accessing 12301 (Total so far 7)
+1043 Replace Page (CLOCK) replaced page 7 with 12 in frame 14
+1043 WRITE 12301 Virtual Addr 12 13 Physical Addr 14 13
+1050 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+1059 WRITE 12401 Virtual Addr 12 113 Physical Addr 14 113
+1062 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+1069 WRITE 12501 Virtual Addr 12 213 Physical Addr 14 213
+1076 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+1081 WRITE 12601 Virtual Addr 12 313 Physical Addr 14 313
+1082 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+1086 WRITE 12701 Virtual Addr 12 413 Physical Addr 14 413
+1091 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+1098 WRITE 12801 Virtual Addr 12 513 Physical Addr 14 513
+1104 READ 3000 Virtual Addr 2 952 Physical Addr 11 952
+1108 WRITE 12901 Virtual Addr 12 613 Physical Addr 14 613
+1108 Completed WRITESEQ Num 100 CdAdr 3000 DtAdr 3001 Inc 100
+1108 -------------------------------------
+1108 ------------------------------------
+1108 Final statistics:
+1108      Total memory accesses   : 202
+1108      Total address violations: 0
+1108      Total page faults       : 7

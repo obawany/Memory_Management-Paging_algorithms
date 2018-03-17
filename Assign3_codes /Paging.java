@@ -5,7 +5,12 @@
  * methodes that reads and writes addresses. 
  */
 
-/**
+/*
+ * Student Name:
+ * Student Number: 
+ */
+
+ /**
  * Two major data structures have been defined in this class
  * 
  * Page Table (pageTable) The variable pageTable references an array of object
@@ -97,6 +102,7 @@ public class Paging {
 	public int addPageBuf(int virtualPageNum) {
 		int removePageNum = pageBuffer[bufPointer]; // get value at pointer
 		pageBuffer[bufPointer] = virtualPageNum; // replace it
+		pageTable[virtualPageNum].u = 1; //
 		bufPointer++; // move to next
 		if (bufPointer == numPhysicalPages) // cycle to start if at end
 			bufPointer = 0;
@@ -160,6 +166,7 @@ public class Paging {
 		} else // no page fault
 		{
 			controlPanel.pageFaultValueLabel.setText("NO");
+			pageTable[pageNum].u = 1; //
 		}
 		return (pageNum);
 	}
@@ -215,9 +222,41 @@ public class Paging {
 	// complete this method
 	// <----------------------------------------------------------------------------
 	public int replacePageLRU(int replacePageNum) {
+		int oldPageNum;
+		int freedFrame;
+		int virtualpage;
+		int ptr;
+		virtualpage = 0;
+		// find first free page
+		for(ptr = 0 ; ptr < numVirtualPages; ptr++){
+			if(pageTable[ptr].p == 1){
+				virtualpage = ptr;
+				break;
+			}
+		}
+		// compare it against the other pages according to LRU rules.
+		for (; ptr < numVirtualPages; ptr++ ){
+			if(pageTable[ptr].p == 1){
+			if(pageTable[ptr].lastTouchTime < pageTable[virtualpage].lastTouchTime){
+				virtualpage = ptr;
+			}
+		}
+		}
+		
+		oldPageNum = virtualpage;
+		freedFrame = pageTable[oldPageNum].frame; 
+		updatePageTableEntry(oldPageNum, -1, (byte) 0, (byte) 0, (byte) 0,
+				 (byte) 0, 0, 0);
+		controlPanel.removePhysicalPage(oldPageNum);
+		updatePageTableEntry(replacePageNum, freedFrame , (byte) 1, (byte) 0, (byte) 0,
+				 (byte) 0, kernel.clock, 0);
+		controlPanel.addPhysicalPage(replacePageNum, freedFrame);
+		logReplacement(oldPageNum, replacePageNum, freedFrame);
+
 		return (replacePageNum);
 	}
 	
+
 	// complete this method
 	// <----------------------------------------------------------------------------
 	public int replacePageCLOCK(int replacePageNum) {
